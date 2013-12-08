@@ -1,0 +1,13 @@
+size(400, 400);
+smooth();
+
+colorMode(HSB, 100);
+background(99);
+
+for(int i = 0 ; i < 12000 ; i ++){
+
+	stroke(random(400), random(400), random(400));
+
+	line(random(width), random(height),
+			 random(width), random(height));
+}
